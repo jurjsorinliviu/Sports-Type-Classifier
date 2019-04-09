@@ -24,6 +24,8 @@ Following are the types of sports over which we are trying to classifying:
 -   Fencing 
 -   Basketball
 
+![Sports Type](https://github.com/anubhavmaity/Sports-Type-Classifier/blob/master/readme_images/sports.png)
+
 ### Data Distribution
 Data has been downloaded with the help of [gi2ds](https://github.com/toffebjorkskog/ml-tools/blob/master/gi2ds.md)
 
@@ -41,7 +43,11 @@ The following data augmentation has been applied to increase the no of images in
 3.  Zooming
 4.  Warping
 
+![Data Augmentations](https://github.com/anubhavmaity/Sports-Type-Classifier/blob/master/readme_images/sports_data_aug.png)
+
 ### Confusion Matrix
+
+![Confusion matrix](https://github.com/anubhavmaity/Sports-Type-Classifier/blob/master/readme_images/sports_confusion_matrix.png)
 
 Pair of confused categories with minimum value of 2
 [('motogp', 'formula1', 5),
@@ -61,13 +67,20 @@ Pair of confused categories with minimum value of 2
 
 For some images you can see the prediction is correct but the manual labelling was done wrong. This shows the CNN are less susceptible to human mistakes.
 
+![Sample Images](https://github.com/anubhavmaity/Sports-Type-Classifier/blob/master/readme_images/si_sports.png)
+
 ### Accuracy
 The accuracy obtained is 97%
+
+![Accuracy](https://github.com/anubhavmaity/Sports-Type-Classifier/blob/master/readme_images/acc_sports.png)
 
 ### Heatmap
 
 Original Image
 
+![Original](https://github.com/anubhavmaity/Sports-Type-Classifier/blob/master/readme_images/cric.png)
+
 After Heatmap
 
+![Heatmap](https://github.com/anubhavmaity/Sports-Type-Classifier/blob/master/readme_images/heat_cric.png)
 
